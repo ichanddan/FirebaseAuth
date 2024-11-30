@@ -12,8 +12,8 @@ export default function NaveBar() {
   return (
     <div>
       <div className="flex justify-between px-12 my-5">
-        <h1 className="text-4xl font-bold text-center">
-          {user ? user?.displayName : "Next.js App"}
+        <h1 className="text-2xl font-bold text-center">
+          {user ? user?.displayName : "Google Authenticated"}
         </h1>
         {user && user.displayName ? (
           <div className="flex gap-5">
